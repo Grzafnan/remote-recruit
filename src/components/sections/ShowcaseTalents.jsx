@@ -35,7 +35,7 @@ const ShowcaseTalents = () => {
               <img
                 src={showcaseImg}
                 alt="Developer profile showing 102 jobs completed, video introduction, past client feedback, and skill tags including Python, JavaScript, Front End, Back End, and IOS Development"
-                loading="lazy"
+                decoding="async"
                 className="w-full max-w-lg lg:max-w-none mx-auto drop-shadow-2xl"
                 width="540"
                 height="540"

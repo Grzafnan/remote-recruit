@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="h-100 flex justify-between items-end gap-8">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2" aria-label="RemoteRecruit home">
-            <img title='home' alt='logo' src={logoImg} loading="lazy" />
+            <img title='home' alt='logo' src={logoImg} width={123} height={50} decoding="async" />
           </a>
           {/* Social Icons */}
           <div className="boder flex items-center gap-3" aria-label="Social media links">

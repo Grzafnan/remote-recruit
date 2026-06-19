@@ -17,7 +17,7 @@ const FeeFreeForever = () => {
               <img
                 src={feeFreeImg}
                 alt="Premium membership tier card showing features including 25 active job posts, premium placement, unlimited messaging, and upcoming payment of $79.99 in 14 days"
-                loading="lazy"
+                decoding="async"
                 className="w-full max-w-lg lg:max-w-none mx-auto drop-shadow-2xl"
                 width="960"
                 height="1100"

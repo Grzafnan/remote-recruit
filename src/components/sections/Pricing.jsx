@@ -18,7 +18,7 @@ const PricingCard = ({ plan, delay = 0 }) => {
         <div className={`relative flex flex-col justify-center items-center rounded-2xl bg-[#ECF2FF] ${!featured ? 'px-10' : 'px-6'} py-16`}>
           {featured && (
             <span className="absolute -top-6 flex gap-x-4 justify-between items-center px-1 py-1 text-xs font-semibold rounded-full text-primary-dark bg-[#C2EEFF] tracking-wide">
-              <img src={premiumIcon} alt="" className='bg-white w-9 h-8 pt-1 rounded-full' loading='lazy' />
+              <img src={premiumIcon} alt="Premium tier indicator" className='bg-white w-9 h-8 pt-1 rounded-full' width={36} height={32} decoding="async" />
               <strong className='text-lg pr-4'>Premium</strong>
             </span>
           )}
@@ -46,7 +46,7 @@ const PricingCard = ({ plan, delay = 0 }) => {
           {features.map((feature, index) => (
             <li key={index} className="flex items-start gap-3">
               <span className="flex-shrink-0 w-6 h-6">
-                {feature.included ? <img src={checkIcon} alt={feature.text} loading="lazy" /> : <img src={crossIcon} alt={feature.text} loading="lazy" />}
+                {feature.included ? <img src={checkIcon} alt="Included feature" width={24} height={24} decoding="async" /> : <img src={crossIcon} alt="Not included feature" width={24} height={24} decoding="async" />}
               </span>
               <span
                 className={`text-sm md:text-base ${feature.included ? 'text-text-dark' : 'text-text-gray'}`}

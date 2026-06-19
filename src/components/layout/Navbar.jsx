@@ -40,14 +40,14 @@ const Navbar = () => {
         id="main-nav"
       >
         <a href="#" className="flex items-center gap-2" aria-label="RemoteRecruit home">
-          <img title='home' alt='logo' src={logoImg} loading="lazy" />
+          <img title='home' alt='logo' src={logoImg} width={123} height={50} decoding="async" />
         </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
           <a
             href="#"
-            className={`px-8 py-2 rounded-2xl text-sm font-semibold transition-colors border-1 border-primary-cyan hover:bg-primary-light duration-500 hover:text-primary-cyan text-white/90 hover:text-white`}
+            className={`px-8 py-2 rounded-2xl text-sm font-semibold transition-colors border-primary-cyan hover:bg-primary-light duration-500 text-white/90 hover:text-white`}
           >
             Sign In
           </a>

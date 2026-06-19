@@ -37,7 +37,7 @@ const GlobalJobBoard = () => {
               <img
                 src={jobBoardImg}
                 alt="RemoteRecruit dashboard showing job search with filters, recent jobs listing, and user profile cards for Python Developer and Front End Wizard"
-                loading="lazy"
+                decoding="async"
                 className="w-full max-w-lg lg:max-w-none mx-auto drop-shadow-2xl"
                 width="960"
                 height="960"

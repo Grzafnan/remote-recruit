@@ -14,7 +14,7 @@
   --color-tag-blue: #3B82F6;
   --color-text-red: #C41E3A;
 
-  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
