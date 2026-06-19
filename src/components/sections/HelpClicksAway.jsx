@@ -67,8 +67,6 @@ const HelpClicksAway = () => {
                 >
                   Get Started
                 </Button>
-
-                {/* Decorative Blue Dot */}
                 <div className="mt-10 flex justify-start">
                   <div className="w-3 h-3 rounded-full bg-primary-light" />
                 </div>

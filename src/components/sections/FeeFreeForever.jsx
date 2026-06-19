@@ -11,7 +11,6 @@ const FeeFreeForever = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-          {/* Image - Left */}
           <div className="flex-1">
             <AnimatedSection direction="left" delay={0.2}>
               <img
@@ -24,8 +23,6 @@ const FeeFreeForever = () => {
               />
             </AnimatedSection>
           </div>
-
-          {/* Text Content - Right */}
           <div className="flex-1">
             <AnimatedSection direction="right">
               <SectionBadge>Actually Fee Free</SectionBadge>

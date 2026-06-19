@@ -13,7 +13,6 @@ const PricingCard = ({ plan, delay = 0 }) => {
       delay={delay}
       className={`relative flex flex-col rounded-2xl p-8 md:p-10 transition-all duration-300 bg-white border border-gray-200 shadow-lg hover:shadow-xl`}
     >
-      {/* Plan Header */}
       <div className='flex flex-col md:flex-row gap-12 justify-between items-center mb-4'>
         <div className={`relative flex flex-col justify-center items-center rounded-2xl bg-[#ECF2FF] ${!featured ? 'px-10' : 'px-6'} py-16`}>
           {featured && (
@@ -40,8 +39,6 @@ const PricingCard = ({ plan, delay = 0 }) => {
             </p>
           )}
         </div>
-
-        {/* Features */}
         <ul className="space-y-4 flex-1" role="list">
           {features.map((feature, index) => (
             <li key={index} className="flex items-start gap-3">
@@ -58,7 +55,6 @@ const PricingCard = ({ plan, delay = 0 }) => {
         </ul>
 
       </div>
-      {/* CTA */}
       <Button
         variant={featured ? 'primary' : 'outline-light'}
         className="w-full"

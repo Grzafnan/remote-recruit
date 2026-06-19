@@ -42,8 +42,6 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-2" aria-label="RemoteRecruit home">
           <img title='home' alt='logo' src={logoImg} width={123} height={50} decoding="async" />
         </a>
-
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
           <a
             href="#"
@@ -55,8 +53,6 @@ const Navbar = () => {
             Sign Up
           </Button>
         </div>
-
-        {/* Mobile Hamburger */}
         <button
           className="md:hidden flex flex-col gap-1.5 p-2 cursor-pointer"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -82,8 +78,6 @@ const Navbar = () => {
           />
         </button>
       </nav>
-
-      {/* Mobile Menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div

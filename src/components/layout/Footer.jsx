@@ -25,11 +25,9 @@ const Footer = () => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="h-100 flex justify-between items-end gap-8">
-          {/* Logo */}
           <a href="#" className="flex items-center gap-2" aria-label="RemoteRecruit home">
             <img title='home' alt='logo' src={logoImg} width={123} height={50} decoding="async" />
           </a>
-          {/* Social Icons */}
           <div className="boder flex items-center gap-3" aria-label="Social media links">
             <SocialIcon href="#" label="Facebook">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
