@@ -116,7 +116,6 @@ npm run preview
 
 ## ⚠️ Known Issues / Limitations
 
-- The Figma design was view-only; some spacing values are approximated from the screenshots
 - Social media links in the footer are placeholder `#` hrefs
 - "Sign In", "Sign Up", and "Get Started" buttons are non-functional (static page)
 - FAQ answers use placeholder/lorem text as specified in the design
