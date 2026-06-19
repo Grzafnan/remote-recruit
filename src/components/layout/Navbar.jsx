@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`lg:max-w-[1440px] mx-auto lg:rounded-full fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+      className={`w-[100vw] lg:max-w-[1440px] md:mx-auto lg:rounded-full fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
         ? 'bg-gradient-to-r from-primary-dark to-primary-dark/90 backdrop-blur-md shadow-xl py-3 lg:py-2'
         : 'bg-transparent'
         }`}
@@ -90,12 +90,12 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-dark border-t border-gray-100 overflow-hidden"
+            className="md:hidden bg-dark border-t border-primary-light overflow-hidden bg-gradient-to-b from-primary-dark to-primary-dark/70 backdrop-blur-xl shadow-xl"
           >
             <div className="px-4 py-6 flex flex-col gap-4">
               <a
                 href="#"
-                className="text-primary-light text-center font-medium py-2 rounded-2xl border-2 border-primary-light px-8 hover:bg-primary-light hover:text-primary-dark hover:-translate-y-0.5 active:translate-y-0"
+                className="text-white text-center font-medium py-2 rounded-2xl border-2 border-primary-light px-8 hover:bg-primary-light hover:text-primary-dark hover:-translate-y-0.5 active:translate-y-0"
                 onClick={() => setMobileOpen(false)}
               >
                 Sign In
