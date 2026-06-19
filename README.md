@@ -13,7 +13,7 @@ A pixel-perfect recreation of the RemoteRecruit Features page built with modern 
 
 ## � Deliverables
 
-1. **GitHub Repository** - [remoterecruit](https://github.com/your-username/remoterecruit)
+1. **GitHub Repository** - [remoterecruit](https://github.com/Grzafnan/remote-recruit)
 2. **Live Deployment** - [https://remoterecruit-eight.vercel.app](https://remoterecruit-eight.vercel.app)
 3. **Project Documentation** - This README includes project overview, tech stack, setup instructions, and design decisions
 
@@ -79,7 +79,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/remoterecruit.git
+git clone https://github.com/Grzafnan/remote-recruit.git
 cd remoterecruit
 
 # Install dependencies
