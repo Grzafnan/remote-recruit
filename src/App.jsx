@@ -11,7 +11,7 @@ import ScrollToTop from './components/ui/ScrollToTop';
 
 function App() {
   return (
-    <div className="min-h-screen lg:max-w-[1440px] mx-auto">
+    <div className="min-h-screen lg:max-w-360 w-full overflow-x-hidden mx-auto">
       <Navbar />
       <main id="main-content">
         <Hero />

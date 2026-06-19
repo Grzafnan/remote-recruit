@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body, html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @theme {
   --color-primary-dark: #1E3E85;
   --color-primary-mid: #336DA6;
@@ -22,6 +28,7 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   body {

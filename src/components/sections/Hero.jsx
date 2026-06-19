@@ -1,5 +1,4 @@
 
-import React from 'react';
 import AnimatedSection from '../common/AnimatedSection';
 import BG from '../../assets/background.svg'
 
@@ -7,7 +6,7 @@ import BG from '../../assets/background.svg'
 const Hero = () => {
   return (
     <section
-      className={`w-full min-h-[75vh] md:min-h[98vh] lg:max-w-[1440px] mx-auto flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat`}
+      className={`min-h-[75vh] md:min-h-[98vh] flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat`}
       id="hero"
       style={{
         backgroundImage: `url("${BG}")`

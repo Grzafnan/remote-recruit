@@ -28,14 +28,14 @@ const Navbar = () => {
 
   return (
     <header
-      className={`w-[100vw] lg:max-w-[1440px] md:mx-auto lg:rounded-full fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+      className={`w-[100vw] lg:max-w-360 md:mx-auto lg:rounded-full fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
         ? 'bg-gradient-to-r from-primary-dark to-primary-dark/90 backdrop-blur-md shadow-xl py-3 lg:py-2'
         : 'bg-transparent'
         }`}
       role="banner"
     >
       <nav
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 flex items-center justify-between h-16 md:h-20"
+        className="px-4 sm:px-6 lg:px-6 flex items-center justify-between h-16 md:h-20"
         aria-label="Main navigation"
         id="main-nav"
       >
